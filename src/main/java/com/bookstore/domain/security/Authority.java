@@ -18,10 +18,10 @@ public class Authority implements GrantedAuthority, Serializable {
     @Setter(AccessLevel.NONE)
     private static final long serialVersionUID = 123123L;
 
-    private final String autority;
+    private final String authority;
 
     @Override
     public String getAuthority() {
-        return autority;
+        return authority;
     }
 }
